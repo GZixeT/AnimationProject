@@ -8,13 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		86AC319120B6D0A20030F3B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AC319020B6D0A20030F3B9 /* AppDelegate.m */; };
-		86AC319420B6D0A20030F3B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AC319320B6D0A20030F3B9 /* ViewController.m */; };
+		86AC319420B6D0A20030F3B9 /* VCMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AC319320B6D0A20030F3B9 /* VCMain.m */; };
 		86AC319720B6D0A20030F3B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86AC319520B6D0A20030F3B9 /* Main.storyboard */; };
 		86AC319920B6D0A30030F3B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86AC319820B6D0A30030F3B9 /* Assets.xcassets */; };
 		86AC319C20B6D0A30030F3B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86AC319A20B6D0A30030F3B9 /* LaunchScreen.storyboard */; };
 		86AC319F20B6D0A30030F3B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AC319E20B6D0A30030F3B9 /* main.m */; };
 		86AC31A920B6D0A30030F3B9 /* AnimationProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AC31A820B6D0A30030F3B9 /* AnimationProjectTests.m */; };
 		86AC31B420B6D0A30030F3B9 /* AnimationProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AC31B320B6D0A30030F3B9 /* AnimationProjectUITests.m */; };
+		86AF2C5420B6D32D00BC69AE /* Animation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86AF2C5320B6D32D00BC69AE /* Animation.storyboard */; };
+		86AF2C5820B6D37000BC69AE /* VCAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AF2C5720B6D37000BC69AE /* VCAnimation.m */; };
+		86AF2C5C20B6E3E800BC69AE /* CButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AF2C5B20B6E3E800BC69AE /* CButton.m */; };
+		86AF2C6020B6F33E00BC69AE /* Animations.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AF2C5F20B6F33E00BC69AE /* Animations.m */; };
+		86AF2C6420B7077200BC69AE /* VCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AF2C6320B7077200BC69AE /* VCTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +43,8 @@
 		86AC318C20B6D0A20030F3B9 /* AnimationProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86AC318F20B6D0A20030F3B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		86AC319020B6D0A20030F3B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		86AC319220B6D0A20030F3B9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		86AC319320B6D0A20030F3B9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		86AC319220B6D0A20030F3B9 /* VCMain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VCMain.h; sourceTree = "<group>"; };
+		86AC319320B6D0A20030F3B9 /* VCMain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VCMain.m; sourceTree = "<group>"; };
 		86AC319620B6D0A20030F3B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		86AC319820B6D0A30030F3B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86AC319B20B6D0A30030F3B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +56,15 @@
 		86AC31AF20B6D0A30030F3B9 /* AnimationProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86AC31B320B6D0A30030F3B9 /* AnimationProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationProjectUITests.m; sourceTree = "<group>"; };
 		86AC31B520B6D0A30030F3B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86AF2C5320B6D32D00BC69AE /* Animation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Animation.storyboard; sourceTree = "<group>"; };
+		86AF2C5620B6D37000BC69AE /* VCAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VCAnimation.h; sourceTree = "<group>"; };
+		86AF2C5720B6D37000BC69AE /* VCAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VCAnimation.m; sourceTree = "<group>"; };
+		86AF2C5A20B6E3E800BC69AE /* CButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CButton.h; sourceTree = "<group>"; };
+		86AF2C5B20B6E3E800BC69AE /* CButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CButton.m; sourceTree = "<group>"; };
+		86AF2C5E20B6F33E00BC69AE /* Animations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animations.h; sourceTree = "<group>"; };
+		86AF2C5F20B6F33E00BC69AE /* Animations.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animations.m; sourceTree = "<group>"; };
+		86AF2C6220B7077200BC69AE /* VCTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VCTest.h; sourceTree = "<group>"; };
+		86AF2C6320B7077200BC69AE /* VCTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VCTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,15 +115,13 @@
 		86AC318E20B6D0A20030F3B9 /* AnimationProject */ = {
 			isa = PBXGroup;
 			children = (
-				86AC318F20B6D0A20030F3B9 /* AppDelegate.h */,
-				86AC319020B6D0A20030F3B9 /* AppDelegate.m */,
-				86AC319220B6D0A20030F3B9 /* ViewController.h */,
-				86AC319320B6D0A20030F3B9 /* ViewController.m */,
-				86AC319520B6D0A20030F3B9 /* Main.storyboard */,
-				86AC319820B6D0A30030F3B9 /* Assets.xcassets */,
-				86AC319A20B6D0A30030F3B9 /* LaunchScreen.storyboard */,
-				86AC319D20B6D0A30030F3B9 /* Info.plist */,
-				86AC319E20B6D0A30030F3B9 /* main.m */,
+				86AF2C6120B7075200BC69AE /* VCTest */,
+				86AF2C5D20B6F2F700BC69AE /* Animations */,
+				86AF2C5220B6D2A100BC69AE /* Storyboards */,
+				86AF2C5920B6E3C000BC69AE /* CButton */,
+				86AF2C5120B6D27E00BC69AE /* VCMain */,
+				86AF2C5520B6D33600BC69AE /* VCAnimation */,
+				86AF2C5020B6D1F500BC69AE /* SupportFiles */,
 			);
 			path = AnimationProject;
 			sourceTree = "<group>";
@@ -130,6 +142,73 @@
 				86AC31B520B6D0A30030F3B9 /* Info.plist */,
 			);
 			path = AnimationProjectUITests;
+			sourceTree = "<group>";
+		};
+		86AF2C5020B6D1F500BC69AE /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				86AC318F20B6D0A20030F3B9 /* AppDelegate.h */,
+				86AC319020B6D0A20030F3B9 /* AppDelegate.m */,
+				86AC319820B6D0A30030F3B9 /* Assets.xcassets */,
+				86AC319D20B6D0A30030F3B9 /* Info.plist */,
+				86AC319E20B6D0A30030F3B9 /* main.m */,
+			);
+			name = SupportFiles;
+			sourceTree = "<group>";
+		};
+		86AF2C5120B6D27E00BC69AE /* VCMain */ = {
+			isa = PBXGroup;
+			children = (
+				86AC319220B6D0A20030F3B9 /* VCMain.h */,
+				86AC319320B6D0A20030F3B9 /* VCMain.m */,
+			);
+			path = VCMain;
+			sourceTree = "<group>";
+		};
+		86AF2C5220B6D2A100BC69AE /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				86AC319520B6D0A20030F3B9 /* Main.storyboard */,
+				86AC319A20B6D0A30030F3B9 /* LaunchScreen.storyboard */,
+				86AF2C5320B6D32D00BC69AE /* Animation.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		86AF2C5520B6D33600BC69AE /* VCAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				86AF2C5620B6D37000BC69AE /* VCAnimation.h */,
+				86AF2C5720B6D37000BC69AE /* VCAnimation.m */,
+			);
+			path = VCAnimation;
+			sourceTree = "<group>";
+		};
+		86AF2C5920B6E3C000BC69AE /* CButton */ = {
+			isa = PBXGroup;
+			children = (
+				86AF2C5A20B6E3E800BC69AE /* CButton.h */,
+				86AF2C5B20B6E3E800BC69AE /* CButton.m */,
+			);
+			name = CButton;
+			sourceTree = "<group>";
+		};
+		86AF2C5D20B6F2F700BC69AE /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				86AF2C5E20B6F33E00BC69AE /* Animations.h */,
+				86AF2C5F20B6F33E00BC69AE /* Animations.m */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		86AF2C6120B7075200BC69AE /* VCTest */ = {
+			isa = PBXGroup;
+			children = (
+				86AF2C6220B7077200BC69AE /* VCTest.h */,
+				86AF2C6320B7077200BC69AE /* VCTest.m */,
+			);
+			name = VCTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +317,7 @@
 				86AC319C20B6D0A30030F3B9 /* LaunchScreen.storyboard in Resources */,
 				86AC319920B6D0A30030F3B9 /* Assets.xcassets in Resources */,
 				86AC319720B6D0A20030F3B9 /* Main.storyboard in Resources */,
+				86AF2C5420B6D32D00BC69AE /* Animation.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +342,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86AC319420B6D0A20030F3B9 /* ViewController.m in Sources */,
+				86AF2C6020B6F33E00BC69AE /* Animations.m in Sources */,
+				86AC319420B6D0A20030F3B9 /* VCMain.m in Sources */,
+				86AF2C5820B6D37000BC69AE /* VCAnimation.m in Sources */,
+				86AF2C5C20B6E3E800BC69AE /* CButton.m in Sources */,
+				86AF2C6420B7077200BC69AE /* VCTest.m in Sources */,
 				86AC319F20B6D0A30030F3B9 /* main.m in Sources */,
 				86AC319120B6D0A20030F3B9 /* AppDelegate.m in Sources */,
 			);
