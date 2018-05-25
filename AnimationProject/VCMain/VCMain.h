@@ -9,7 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "VCTest.h"
 
-@interface VCMain : UIViewController <VCTestDelegate>
+
+@interface VCMain : UIViewController
 @property (weak, nonatomic) IBOutlet UIButton *nextButton;
 @end
 

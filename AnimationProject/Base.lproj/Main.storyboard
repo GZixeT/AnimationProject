@@ -50,7 +50,7 @@
                                     <color key="titleColor" red="0.1215686277" green="0.1294117719" blue="0.1411764771" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="G0F-Hy-UHh" kind="show" id="2Ih-uR-EpX"/>
+                                    <segue destination="G0F-Hy-UHh" kind="show" identifier="test" id="2Ih-uR-EpX"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -69,20 +69,20 @@
             </objects>
             <point key="canvasLocation" x="-158" y="29"/>
         </scene>
-        <!--View Controller-->
+        <!--Test-->
         <scene sceneID="kRk-xX-Jkf">
             <objects>
-                <viewController id="G0F-Hy-UHh" sceneMemberID="viewController">
+                <viewController id="G0F-Hy-UHh" customClass="VCTest" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fZg-Iv-Dge">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mty-eq-jWQ">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mty-eq-jWQ" customClass="CButton">
                                 <rect key="frame" x="164" y="312" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="Dd4-9h-YyG"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="main" id="Dd4-9h-YyG"/>
                                 </connections>
                             </button>
                         </subviews>

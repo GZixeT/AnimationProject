@@ -32,6 +32,7 @@
 {
     [self.delegate animate];
     VCMain *main = (VCMain *)segue.destinationViewController;
+    
 }
 
 @end

@@ -9,7 +9,8 @@
 #import "VCMain.h"
 #import "Animations.h"
 #import "VCTest.h"
-@interface VCMain ()
+
+@interface VCMain () <VCTestDelegate>
 @property Animations *animations;
 @end
 
@@ -49,16 +50,19 @@
 }
 - (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    VCTest *test = (VCTest *)segue.destinationViewController;
-    test.delegate=self;
+    if([segue.identifier isEqualToString:@"test"])
+    {
+        VCTest *test = (VCTest *)segue.destinationViewController;
+        test.delegate=self;
+    }
 }
 - (void) animate
 {
     NSLog(@"animate");
-//    [self.animations action:STANDART_DURATION animation:^
-//     {
-//         self.view.frame=CGRectMake(0, 0, self.animations.screenWidth, self.animations.screenHeight);
-//     }];
+    [self.animations action:STANDART_DURATION animation:^
+     {
+         self.view.frame=CGRectMake(0, 0, self.animations.screenWidth, self.animations.screenHeight);
+     }];
 }
 
 @end

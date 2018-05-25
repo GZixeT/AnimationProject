@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "VCMain.h"
+
 @protocol VCTestDelegate;
 @interface VCTest : UIViewController
 @property (nonatomic,assign) id <VCTestDelegate> delegate;
