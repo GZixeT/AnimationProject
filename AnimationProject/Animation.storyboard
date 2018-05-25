@@ -22,13 +22,16 @@
                                 <rect key="frame" x="112" y="318.5" width="150" height="30"/>
                                 <color key="backgroundColor" red="0.1852533462" green="0.0" blue="0.35713435910000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="CAp-Cf-wMf"/>
                                     <constraint firstAttribute="width" constant="150" id="xcW-lE-Wuw"/>
                                 </constraints>
+                                <inset key="contentEdgeInsets" minX="1" minY="1" maxX="1" maxY="1"/>
+                                <inset key="imageEdgeInsets" minX="1" minY="1" maxX="1" maxY="1"/>
                                 <state key="normal" title="Animation">
                                     <color key="titleColor" red="0.0" green="0.94733646370000002" blue="0.94733646370000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="AMBClick:" destination="GRf-qv-wuq" eventType="touchUpInside" id="M70-Fp-Etr"/>
+                                    <action selector="ABClick:" destination="GRf-qv-wuq" eventType="touchUpInside" id="TMq-7Z-TVY"/>
                                 </connections>
                             </button>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" barStyle="black" translatesAutoresizingMaskIntoConstraints="NO" id="tO5-xH-uo0">
@@ -53,17 +56,49 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bEI-z5-IMz" customClass="CButton">
+                                <rect key="frame" x="112.5" y="369" width="150" height="30"/>
+                                <color key="backgroundColor" red="6.2890831399999995e-05" green="0.21142002230000001" blue="0.42284650260000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="Rm1-3B-nTl"/>
+                                </constraints>
+                                <state key="normal" title="Remove">
+                                    <color key="titleColor" red="0.0" green="0.94733646370000002" blue="0.94733646370000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="RBClick:" destination="GRf-qv-wuq" eventType="touchUpInside" id="Ykd-e9-8XR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="92r-ZC-eJh" customClass="CButton">
+                                <rect key="frame" x="112" y="419" width="150" height="30"/>
+                                <color key="backgroundColor" red="6.2890831399999995e-05" green="0.21142002230000001" blue="0.42284650260000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="zJd-rD-DM0"/>
+                                </constraints>
+                                <state key="normal" title="Constraints">
+                                    <color key="titleColor" red="0.0" green="0.94733646370000002" blue="0.94733646370000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="CMBClick:" destination="GRf-qv-wuq" eventType="touchUpInside" id="8Hr-uk-rpx"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.35629078177313844" green="0.0" blue="0.42284650260000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="bEI-z5-IMz" firstAttribute="top" secondItem="nEK-bT-cW9" secondAttribute="bottom" constant="20" id="1Cd-sW-9ZA"/>
                             <constraint firstItem="nEK-bT-cW9" firstAttribute="centerY" secondItem="AbD-wx-6qu" secondAttribute="centerY" id="4Q7-ew-qbg"/>
+                            <constraint firstItem="92r-ZC-eJh" firstAttribute="centerX" secondItem="AbD-wx-6qu" secondAttribute="centerX" id="Q6x-2H-erL"/>
+                            <constraint firstItem="bEI-z5-IMz" firstAttribute="centerX" secondItem="AbD-wx-6qu" secondAttribute="centerX" id="U7n-h1-a27"/>
                             <constraint firstItem="nEK-bT-cW9" firstAttribute="centerX" secondItem="AbD-wx-6qu" secondAttribute="centerX" id="hne-pB-bSQ"/>
+                            <constraint firstItem="92r-ZC-eJh" firstAttribute="top" secondItem="bEI-z5-IMz" secondAttribute="bottom" constant="20" id="z0m-Az-MAo"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Z9R-ry-yBG"/>
                     </view>
                     <connections>
                         <outlet property="animationButton" destination="nEK-bT-cW9" id="TI0-Bk-UKR"/>
                         <outlet property="backButton" destination="p9E-Ep-tsJ" id="drr-cB-Tno"/>
+                        <outlet property="constraintsButton" destination="92r-ZC-eJh" id="mQI-PK-lVz"/>
+                        <outlet property="removeButton" destination="bEI-z5-IMz" id="grb-Mt-lZc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sje-mb-Wxs" userLabel="First Responder" sceneMemberID="firstResponder"/>

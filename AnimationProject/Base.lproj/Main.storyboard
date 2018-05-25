@@ -77,9 +77,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mty-eq-jWQ" customClass="CButton">
-                                <rect key="frame" x="164" y="312" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mty-eq-jWQ" customClass="CButton">
+                                <rect key="frame" x="112" y="318.5" width="150" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="vz9-ow-tpk"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" identifier="main" id="Dd4-9h-YyG"/>
@@ -87,6 +89,10 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.81416997710000005" green="0.72618750170000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="mty-eq-jWQ" firstAttribute="centerX" secondItem="fZg-Iv-Dge" secondAttribute="centerX" id="IJf-Y5-w4J"/>
+                            <constraint firstItem="mty-eq-jWQ" firstAttribute="centerY" secondItem="fZg-Iv-Dge" secondAttribute="centerY" id="fZQ-Qr-wgt"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6YV-rm-FjW"/>
                     </view>
                     <toolbarItems/>

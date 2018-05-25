@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8618CCA720B8009400BA0EAA /* Queen.png in Resources */ = {isa = PBXBuildFile; fileRef = 8618CCA620B8009400BA0EAA /* Queen.png */; };
+		8618CCA920B8009B00BA0EAA /* Ace.png in Resources */ = {isa = PBXBuildFile; fileRef = 8618CCA820B8009B00BA0EAA /* Ace.png */; };
+		8618CCAD20B8270D00BA0EAA /* CVAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 8618CCAC20B8270D00BA0EAA /* CVAlert.m */; };
 		86AC319120B6D0A20030F3B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AC319020B6D0A20030F3B9 /* AppDelegate.m */; };
 		86AC319420B6D0A20030F3B9 /* VCMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AC319320B6D0A20030F3B9 /* VCMain.m */; };
 		86AC319720B6D0A20030F3B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86AC319520B6D0A20030F3B9 /* Main.storyboard */; };
@@ -40,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8618CCA620B8009400BA0EAA /* Queen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Queen.png; sourceTree = "<group>"; };
+		8618CCA820B8009B00BA0EAA /* Ace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ace.png; sourceTree = "<group>"; };
+		8618CCAB20B8270D00BA0EAA /* CVAlert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVAlert.h; sourceTree = "<group>"; };
+		8618CCAC20B8270D00BA0EAA /* CVAlert.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CVAlert.m; sourceTree = "<group>"; };
 		86AC318C20B6D0A20030F3B9 /* AnimationProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86AC318F20B6D0A20030F3B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		86AC319020B6D0A20030F3B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -92,6 +99,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8618CCA520B8007800BA0EAA /* Pictures */ = {
+			isa = PBXGroup;
+			children = (
+				8618CCA820B8009B00BA0EAA /* Ace.png */,
+				8618CCA620B8009400BA0EAA /* Queen.png */,
+			);
+			path = Pictures;
+			sourceTree = "<group>";
+		};
+		8618CCAA20B826CE00BA0EAA /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				8618CCAB20B8270D00BA0EAA /* CVAlert.h */,
+				8618CCAC20B8270D00BA0EAA /* CVAlert.m */,
+			);
+			name = Alert;
+			sourceTree = "<group>";
+		};
 		86AC318320B6D0A20030F3B9 = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +140,7 @@
 		86AC318E20B6D0A20030F3B9 /* AnimationProject */ = {
 			isa = PBXGroup;
 			children = (
+				8618CCAA20B826CE00BA0EAA /* Alert */,
 				86AF2C6120B7075200BC69AE /* VCTest */,
 				86AF2C5D20B6F2F700BC69AE /* Animations */,
 				86AF2C5220B6D2A100BC69AE /* Storyboards */,
@@ -147,6 +173,7 @@
 		86AF2C5020B6D1F500BC69AE /* SupportFiles */ = {
 			isa = PBXGroup;
 			children = (
+				8618CCA520B8007800BA0EAA /* Pictures */,
 				86AC318F20B6D0A20030F3B9 /* AppDelegate.h */,
 				86AC319020B6D0A20030F3B9 /* AppDelegate.m */,
 				86AC319820B6D0A30030F3B9 /* Assets.xcassets */,
@@ -314,8 +341,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8618CCA720B8009400BA0EAA /* Queen.png in Resources */,
 				86AC319C20B6D0A30030F3B9 /* LaunchScreen.storyboard in Resources */,
 				86AC319920B6D0A30030F3B9 /* Assets.xcassets in Resources */,
+				8618CCA920B8009B00BA0EAA /* Ace.png in Resources */,
 				86AC319720B6D0A20030F3B9 /* Main.storyboard in Resources */,
 				86AF2C5420B6D32D00BC69AE /* Animation.storyboard in Resources */,
 			);
@@ -347,6 +376,7 @@
 				86AF2C5820B6D37000BC69AE /* VCAnimation.m in Sources */,
 				86AF2C5C20B6E3E800BC69AE /* CButton.m in Sources */,
 				86AF2C6420B7077200BC69AE /* VCTest.m in Sources */,
+				8618CCAD20B8270D00BA0EAA /* CVAlert.m in Sources */,
 				86AC319F20B6D0A30030F3B9 /* main.m in Sources */,
 				86AC319120B6D0A20030F3B9 /* AppDelegate.m in Sources */,
 			);

@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CButton.h"
 
 @interface VCAnimation : UIViewController
-@property (weak, nonatomic) IBOutlet UIButton *animationButton;
+@property (weak, nonatomic) IBOutlet CButton *animationButton;
+@property (weak, nonatomic) IBOutlet CButton *removeButton;
+@property (weak, nonatomic) IBOutlet CButton *constraintsButton;
 @property (weak, nonatomic) IBOutlet UIButton *backButton;
 @end
